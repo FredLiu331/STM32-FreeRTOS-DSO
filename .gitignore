@@ -1,0 +1,17 @@
+.cache/*
+.vscode/*
+build/*
+*.json
+tree.txt
+
+GUI/lvgl/*
+
+!GUI/lvgl/src/
+
+!GUI/lvgl/src/**/
+!GUI/lvgl/src/**/*.c
+!GUI/lvgl/src/**/*.h
+
+!GUI/lvgl/lvgl.h
+!GUI/lvgl/lvgl.mk
+!GUI/lvgl/component.mk
